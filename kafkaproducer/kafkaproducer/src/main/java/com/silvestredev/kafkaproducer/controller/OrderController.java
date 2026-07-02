@@ -2,12 +2,12 @@ package com.silvestredev.kafkaproducer.controller;
 
 import com.silvestredev.kafkaproducer.record.Order;
 import com.silvestredev.kafkaproducer.services.OrderService;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 @RequestMapping("/orders")
 public class OrderController {
 
